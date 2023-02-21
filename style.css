@@ -1,0 +1,81 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    background:  #f4eeff;
+}
+.wrapper{
+    max-width: 1920px;
+    margin: 0 auto;
+}
+.header{
+    background: #424874;
+    padding: 10px 30px;
+}
+.slogan{
+    color: #f4eeff;
+    font-size: 24px;
+    font-weight: 700;
+}
+.main{
+    padding: 0 160px;
+}
+.calculations{
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+}
+.title, .subtitle{
+    font-size: 24px;
+    font-weight: 700;
+    padding-top: 20px;
+    text-align: center;
+    color: #424874;
+}
+.subtitle{
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+.caption{
+    font-size: 16px;
+    color: #424874;
+    font-weight: 700;
+}
+.btn{
+    text-align: center;
+    background: #424874;
+    color: #f4eeff;
+    transition: all 0.4s;
+    display: block;
+    margin: 0 auto;
+}
+.btn:hover{
+    background: #a6b1e1;
+}
+ul{
+    list-style: none;
+}
+.measure-item{
+    margin-right: 8px;
+}
+.form-control{
+    margin-right: 20px;
+}
+.input-field, .output-field{
+    padding: 25px;
+    border: 2px solid #dcd6f7;
+    border-radius: 4px;
+}
+@media screen and (max-width: 1050px){
+    .header{
+        padding: 10px;
+    }
+    .main{
+        padding: 0 60px;
+    }
+    .calculations{
+        grid-template-columns: 1fr;
+    }
+}
