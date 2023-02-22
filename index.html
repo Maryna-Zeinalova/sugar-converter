@@ -34,7 +34,9 @@
     </header>
     <main class="main">
       <div class="wrapper">
-        <h1 class="title">Скільки цукру в грамах?</h1>
+        <h1 class="title">Скільки цукру влізе в <img src="./images/glass.png" alt="glass">
+          <img src="./images/tablespoon.png" alt="tablespoon">
+          <img src="./images/teaspoon.png" alt="teaspoon">?</h1>
 
         <div class="calculations">
           <div class="input-field">
@@ -48,11 +50,12 @@
               />
               <span class="caption">грамів цукру</span>
             </div>
-            <button onclick="count()" class="btn btn-outline-secondary">
+            <button onclick="renderCount()" class="btn btn-outline-secondary">
               Розрахувати
             </button>
           </div>
           <div class="output-field">
+            <p class="text-center">Заповни поле вище, щоб отримати результат</p>
           </div>
         </div>
       </div>
