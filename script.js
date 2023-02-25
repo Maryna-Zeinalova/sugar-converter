@@ -1,11 +1,3 @@
-function countSugar(gram) {
-  return {
-    glass: gram / 200,
-    tablespoon: gram / 20,
-    teaspoon: gram / 8,
-  };
-}
-
 function renderCount() {
   const initialAmount = document.getElementById("amount").value;
   const resultAmount = countSugar(initialAmount);
